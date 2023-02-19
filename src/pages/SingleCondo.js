@@ -16,6 +16,7 @@ export default function SingleCondo() {
       try {
         const res = await axios.get(
             "http://localhost:5001/products" //api here
+            // "https://tough-peplum-worm.cyclic.app/products"
         );
         console.log(res.data, project)
         let index = -1;
