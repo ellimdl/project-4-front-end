@@ -15,8 +15,8 @@ export default function Home() {
     const getProducts = async () => {
       try {
         const res = await axios.get(
-            "http://localhost:5001/products" //api here
-            // "https://tough-peplum-worm.cyclic.app/products"
+            // "http://localhost:5001/products" //api here
+            "https://tough-peplum-worm.cyclic.app/products"
         );
         console.log(res.data)
         setMasterProducts(res.data);
